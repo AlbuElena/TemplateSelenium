@@ -4,7 +4,7 @@
 		<listener class-name = "utils.TestNgListener" />
 	</listeners>
 
-  <test name="Login" >
+  <test name="TC1" >
 	  
 	<parameter name="user" value="customer"/>
 	<parameter name ="pass" value="customer@123"> </parameter>
@@ -15,7 +15,7 @@
 	
 	
     <classes>
-       <class name="tests.LoginTest" />  
+       <class name="tests.TC1Homework" />  
     </classes>
   </test>
 </suite>

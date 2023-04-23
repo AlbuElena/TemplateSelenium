@@ -29,8 +29,7 @@ public class SeleniumWrappers  {
 		WebElement element = driver.findElement(locator); // sau pot ca la metoda click sa folosesc getElement(locator)
 		element.sendKeys(value);
 	}
-	
-	
+		
 	public void waitForElementToBeVisible(WebElement element) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		wait.until(ExpectedConditions.visibilityOf(element));
@@ -39,5 +38,18 @@ public class SeleniumWrappers  {
 	public WebElement getElement(By locator) {
 		return driver.findElement(locator);
 	}
+	
+	public boolean messageIsDisplayed(By locator) {
+		return driver.findElement(locator).isDisplayed();
+	}
+	
+	public String productPrice (By locator) {
+		return driver.findElement(locator).getText().replace("$", "") ; 
+	}
+   
+	public static double round(double value, int scale) {
+	    return Math.round(value * Math.pow(10, scale)) / Math.pow(10, scale);
+	}
+    
 
 }
