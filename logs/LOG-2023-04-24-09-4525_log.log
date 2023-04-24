@@ -1,0 +1,45 @@
+09:45:25.675 [main] INFO  utils.Log - Browser parameter is : CHROME
+09:45:27.440 [main] INFO  utils.Log - Chrome =--> Thread.id = 1
+09:45:30.102 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:45:30.103 [main] INFO  utils.Log - Started test :TC2Homework - navigateToBlog
+09:45:30.103 [main] INFO  utils.Log - TC2Homework
+09:45:30.103 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:45:30.104 [main] INFO  utils.Log - Start time :2023.04.24.09.45.30
+09:45:30.104 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:45:30.852 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:45:30.853 [main] INFO  utils.Log - Passed test :navigateToBlog
+09:45:30.853 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:45:30.854 [main] INFO  utils.Log - End time :2023.04.24.09.45.30
+09:45:30.854 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:45:30.857 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:45:30.858 [main] INFO  utils.Log - Started test :TC2Homework - checkBlogs
+09:45:30.858 [main] INFO  utils.Log - TC2Homework
+09:45:30.858 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:45:30.858 [main] INFO  utils.Log - Start time :2023.04.24.09.45.30
+09:45:30.858 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:45:30.937 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:45:30.937 [main] INFO  utils.Log - Passed test :checkBlogs
+09:45:30.937 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:45:30.937 [main] INFO  utils.Log - End time :2023.04.24.09.45.30
+09:45:30.937 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:45:30.939 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:45:30.939 [main] INFO  utils.Log - Started test :TC2Homework - postCommentInBlog1
+09:45:30.939 [main] INFO  utils.Log - TC2Homework
+09:45:30.939 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:45:30.939 [main] INFO  utils.Log - Start time :2023.04.24.09.45.30
+09:45:30.939 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:45:41.189 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++
+09:45:41.189 [main] ERROR utils.Log - Failed test :postCommentInBlog1
+09:45:41.189 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++
+09:45:41.190 [main] ERROR utils.Log - Failed time :2023.04.24.09.45.41
+09:45:41.190 [main] ERROR utils.Log - org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=112.0.5615.121)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8ae00cdb23f45955eb684c72aca62add, isElementDisplayed {id=4a55183e-22ad-43b9-8dce-c737f3f1e0b2}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.121, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\ealbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56448}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56448/devtoo..., se:cdpVersion: 112.0.5615.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (8ae00cdb23f45955eb684c72aca62add)] -> xpath: //article[@id = 'post-1023']//h2//a[contains(@href, 'typefaces')]]
+Session ID: 8ae00cdb23f45955eb684c72aca62add
+09:45:41.190 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++

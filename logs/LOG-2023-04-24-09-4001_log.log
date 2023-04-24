@@ -1,0 +1,44 @@
+09:40:01.276 [main] INFO  utils.Log - Browser parameter is : FIREFOX
+09:40:03.978 [main] INFO  utils.Log - Firefox =--> Thread.id = 1
+09:40:06.820 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:40:06.822 [main] INFO  utils.Log - Started test :TC2Homework - navigateToBlog
+09:40:06.822 [main] INFO  utils.Log - TC2Homework
+09:40:06.822 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:40:06.824 [main] INFO  utils.Log - Start time :2023.04.24.09.40.06
+09:40:06.824 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:40:07.464 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:40:07.465 [main] INFO  utils.Log - Passed test :navigateToBlog
+09:40:07.465 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:40:07.466 [main] INFO  utils.Log - End time :2023.04.24.09.40.07
+09:40:07.466 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:40:07.469 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:40:07.470 [main] INFO  utils.Log - Started test :TC2Homework - checkBlogs
+09:40:07.470 [main] INFO  utils.Log - TC2Homework
+09:40:07.470 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:40:07.470 [main] INFO  utils.Log - Start time :2023.04.24.09.40.07
+09:40:07.470 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:40:07.537 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:40:07.537 [main] INFO  utils.Log - Passed test :checkBlogs
+09:40:07.537 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:40:07.537 [main] INFO  utils.Log - End time :2023.04.24.09.40.07
+09:40:07.538 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:40:07.538 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:40:07.539 [main] INFO  utils.Log - Started test :TC2Homework - postCommentInBlog1
+09:40:07.539 [main] INFO  utils.Log - TC2Homework
+09:40:07.539 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:40:07.539 [main] INFO  utils.Log - Start time :2023.04.24.09.40.07
+09:40:07.539 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:40:17.747 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++
+09:40:17.747 [main] ERROR utils.Log - Failed test :postCommentInBlog1
+09:40:17.747 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++
+09:40:17.748 [main] ERROR utils.Log - Failed time :2023.04.24.09.40.17
+09:40:17.749 [main] ERROR utils.Log - org.openqa.selenium.StaleElementReferenceException: The element with the reference 5f7d2ba6-c102-4b9e-9d23-3412d7642e3b is stale; either its node document is not the active document, or it is no longer connected to the DOM
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [703d4bcd-8388-4e48-934d-7db70547561b, isElementDisplayed {id=5f7d2ba6-c102-4b9e-9d23-3412d7642e3b}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 112.0.1, moz:accessibilityChecks: false, moz:buildID: 20230414125621, moz:debuggerAddress: 127.0.0.1:38093, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 42160, moz:profile: C:\Users\ealbu\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:38093/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Element: [[FirefoxDriver: firefox on WINDOWS (703d4bcd-8388-4e48-934d-7db70547561b)] -> xpath: //article[@id = 'post-1023']//h2//a[contains(@href, 'typefaces')]]
+Session ID: 703d4bcd-8388-4e48-934d-7db70547561b
+09:40:17.749 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++

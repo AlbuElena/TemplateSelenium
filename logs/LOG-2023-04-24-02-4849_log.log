@@ -1,0 +1,34 @@
+02:48:49.724 [main] INFO  utils.Log - Browser parameter is : EDGE
+02:48:52.986 [main] INFO  utils.Log - Edge =--> Thread.id = 1
+02:48:56.075 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:48:56.076 [main] INFO  utils.Log - Started test :TC2Homework - navigateToBlog
+02:48:56.076 [main] INFO  utils.Log - TC2Homework
+02:48:56.076 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:48:56.077 [main] INFO  utils.Log - Start time :2023.04.24.02.48.56
+02:48:56.077 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:48:56.670 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:48:56.671 [main] INFO  utils.Log - Passed test :navigateToBlog
+02:48:56.671 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:48:56.671 [main] INFO  utils.Log - End time :2023.04.24.02.48.56
+02:48:56.671 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:48:56.674 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:48:56.674 [main] INFO  utils.Log - Started test :TC2Homework - checkBlogs
+02:48:56.674 [main] INFO  utils.Log - TC2Homework
+02:48:56.674 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:48:56.675 [main] INFO  utils.Log - Start time :2023.04.24.02.48.56
+02:48:56.675 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:48:57.744 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++
+02:48:57.745 [main] ERROR utils.Log - Failed test :checkBlogs
+02:48:57.745 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++
+02:48:57.745 [main] ERROR utils.Log - Failed time :2023.04.24.02.48.57
+02:48:57.745 [main] ERROR utils.Log - org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: MicrosoftEdge=112.0.1722.48)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [c16b5645952c26f33489d04ce44afaa1, clickElement {id=23264c9f-8ba4-45c1-9be7-bb96b46f7714}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 112.0.1722.48, ms:edgeOptions: {debuggerAddress: localhost:50571}, msedge: {msedgedriverVersion: 112.0.1722.58 (4dc3f55bfaec..., userDataDir: C:\Users\ealbu\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50571/devtoo..., se:cdpVersion: 112.0.1722.48, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (c16b5645952c26f33489d04ce44afaa1)] -> xpath: //article[@id = 'post-1759']//h2//a[contains(@href, 'donut')]]
+Session ID: c16b5645952c26f33489d04ce44afaa1
+02:48:57.747 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++

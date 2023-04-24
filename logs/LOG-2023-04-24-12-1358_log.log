@@ -1,0 +1,36 @@
+12:13:58.919 [main] INFO  utils.Log - Browser parameter is : CHROME
+12:14:00.413 [main] INFO  utils.Log - Chrome =--> Thread.id = 1
+12:14:02.960 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:14:02.960 [main] INFO  utils.Log - Started test :TC2Homework - navigateToBlog
+12:14:02.960 [main] INFO  utils.Log - TC2Homework
+12:14:02.960 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:14:02.961 [main] INFO  utils.Log - Start time :2023.04.24.12.14.02
+12:14:02.961 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:14:04.185 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:14:04.187 [main] INFO  utils.Log - Passed test :navigateToBlog
+12:14:04.187 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:14:04.188 [main] INFO  utils.Log - End time :2023.04.24.12.14.04
+12:14:04.188 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:14:04.193 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:14:04.193 [main] INFO  utils.Log - Started test :TC2Homework - checkBlogs
+12:14:04.193 [main] INFO  utils.Log - TC2Homework
+12:14:04.193 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:14:04.193 [main] INFO  utils.Log - Start time :2023.04.24.12.14.04
+12:14:04.193 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:14:04.273 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:14:04.273 [main] INFO  utils.Log - Passed test :checkBlogs
+12:14:04.273 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:14:04.274 [main] INFO  utils.Log - End time :2023.04.24.12.14.04
+12:14:04.274 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:14:04.275 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:14:04.275 [main] INFO  utils.Log - Started test :TC2Homework - postCommentInBlog1
+12:14:04.275 [main] INFO  utils.Log - TC2Homework
+12:14:04.275 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:14:04.275 [main] INFO  utils.Log - Start time :2023.04.24.12.14.04
+12:14:04.275 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:14:33.129 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++
+12:14:33.130 [main] ERROR utils.Log - Failed test :postCommentInBlog1
+12:14:33.130 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++
+12:14:33.131 [main] ERROR utils.Log - Failed time :2023.04.24.12.14.33
+12:14:33.133 [main] ERROR utils.Log - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: [[ChromeDriver: chrome on WINDOWS (ee8b3111c004a183c31bdce79097037e)] -> xpath: //article[@id = 'post-1023']//h2//a[contains(@href, 'typefaces')]] (tried for 10 second(s) with 500 milliseconds interval)
+12:14:33.134 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++

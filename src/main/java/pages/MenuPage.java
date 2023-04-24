@@ -14,7 +14,7 @@ public class MenuPage extends SeleniumWrappers{
 	public By loginLink = By.linkText("My account");
 	public By searchProduct = By.xpath("//input[@id = 'dgwt-wcas-search-input-1']");
 	public By PretzelsResult = By.xpath("//span[@class = 'dgwt-wcas-st-title']");
-	
+	public By blogLink = By.xpath("//nav[contains(@class,' horizontal')]//a[@href = 'https://keyfood.ro/blog/']");
 	
 
 }

@@ -1,0 +1,35 @@
+02:24:49.255 [main] INFO  utils.Log - Browser parameter is : EDGE
+02:24:52.525 [main] INFO  utils.Log - Edge =--> Thread.id = 1
+02:24:55.128 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:24:55.129 [main] INFO  utils.Log - Started test :TC2Homework - navigateToBlog
+02:24:55.129 [main] INFO  utils.Log - TC2Homework
+02:24:55.129 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:24:55.131 [main] INFO  utils.Log - Start time :2023.04.24.02.24.55
+02:24:55.131 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:24:55.775 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:24:55.775 [main] INFO  utils.Log - Passed test :navigateToBlog
+02:24:55.775 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:24:55.777 [main] INFO  utils.Log - End time :2023.04.24.02.24.55
+02:24:55.777 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:24:55.780 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:24:55.781 [main] INFO  utils.Log - Started test :TC2Homework - checkBlogs
+02:24:55.781 [main] INFO  utils.Log - TC2Homework
+02:24:55.781 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:24:55.781 [main] INFO  utils.Log - Start time :2023.04.24.02.24.55
+02:24:55.781 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:24:55.861 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:24:55.861 [main] INFO  utils.Log - Passed test :checkBlogs
+02:24:55.862 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:24:55.862 [main] INFO  utils.Log - End time :2023.04.24.02.24.55
+02:24:55.862 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:24:55.863 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:24:55.863 [main] INFO  utils.Log - Started test :TC2Homework - postCommentInBlog2
+02:24:55.863 [main] INFO  utils.Log - TC2Homework
+02:24:55.863 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:24:55.863 [main] INFO  utils.Log - Start time :2023.04.24.02.24.55
+02:24:55.863 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:24:57.552 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:24:57.553 [main] INFO  utils.Log - Passed test :postCommentInBlog2
+02:24:57.553 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:24:57.553 [main] INFO  utils.Log - End time :2023.04.24.02.24.57
+02:24:57.553 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++

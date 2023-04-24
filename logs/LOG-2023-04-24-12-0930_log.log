@@ -1,0 +1,41 @@
+12:09:30.781 [main] INFO  utils.Log - Browser parameter is : CHROME
+12:09:32.322 [main] INFO  utils.Log - Chrome =--> Thread.id = 1
+12:09:35.200 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:09:35.200 [main] INFO  utils.Log - Started test :TC2Homework - navigateToBlog
+12:09:35.200 [main] INFO  utils.Log - TC2Homework
+12:09:35.200 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:09:35.202 [main] INFO  utils.Log - Start time :2023.04.24.12.09.35
+12:09:35.202 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:09:35.815 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:09:35.815 [main] INFO  utils.Log - Passed test :navigateToBlog
+12:09:35.815 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:09:35.815 [main] INFO  utils.Log - End time :2023.04.24.12.09.35
+12:09:35.815 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:09:35.818 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:09:35.818 [main] INFO  utils.Log - Started test :TC2Homework - checkBlogs
+12:09:35.818 [main] INFO  utils.Log - TC2Homework
+12:09:35.818 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:09:35.819 [main] INFO  utils.Log - Start time :2023.04.24.12.09.35
+12:09:35.819 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:09:35.907 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:09:35.907 [main] INFO  utils.Log - Passed test :checkBlogs
+12:09:35.907 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:09:35.907 [main] INFO  utils.Log - End time :2023.04.24.12.09.35
+12:09:35.907 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:09:35.907 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:09:35.908 [main] INFO  utils.Log - Started test :TC2Homework - postCommentInBlog1
+12:09:35.908 [main] INFO  utils.Log - TC2Homework
+12:09:35.908 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:09:35.908 [main] INFO  utils.Log - Start time :2023.04.24.12.09.35
+12:09:35.908 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:09:50.320 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++
+12:09:50.320 [main] ERROR utils.Log - Failed test :postCommentInBlog1
+12:09:50.320 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++
+12:09:50.320 [main] ERROR utils.Log - Failed time :2023.04.24.12.09.50
+12:09:50.321 [main] ERROR utils.Log - org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element ([[ChromeDriver: chrome on WINDOWS (1d900d34f2ebc74fc298c6110a008d3c)] -> xpath: //article[@id = 'post-1035']//h2//a[contains(@href, 'mistaken')]]) to be selected (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.121, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\ealbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55471}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55471/devtoo..., se:cdpVersion: 112.0.5615.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1d900d34f2ebc74fc298c6110a008d3c
+12:09:50.321 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++

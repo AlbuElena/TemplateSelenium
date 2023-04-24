@@ -1,0 +1,36 @@
+09:20:57.744 [main] INFO  utils.Log - Browser parameter is : EDGE
+09:21:02.013 [main] INFO  utils.Log - Edge =--> Thread.id = 1
+09:21:06.183 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:21:06.183 [main] INFO  utils.Log - Started test :TC2Homework - navigateToBlog
+09:21:06.183 [main] INFO  utils.Log - TC2Homework
+09:21:06.183 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:21:06.185 [main] INFO  utils.Log - Start time :2023.04.24.09.21.06
+09:21:06.185 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:21:07.279 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:21:07.280 [main] INFO  utils.Log - Passed test :navigateToBlog
+09:21:07.280 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:21:07.280 [main] INFO  utils.Log - End time :2023.04.24.09.21.07
+09:21:07.280 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:21:07.284 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:21:07.284 [main] INFO  utils.Log - Started test :TC2Homework - checkBlogs
+09:21:07.285 [main] INFO  utils.Log - TC2Homework
+09:21:07.285 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:21:07.285 [main] INFO  utils.Log - Start time :2023.04.24.09.21.07
+09:21:07.285 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:21:07.387 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:21:07.387 [main] INFO  utils.Log - Passed test :checkBlogs
+09:21:07.387 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:21:07.387 [main] INFO  utils.Log - End time :2023.04.24.09.21.07
+09:21:07.387 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:21:07.389 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:21:07.389 [main] INFO  utils.Log - Started test :TC2Homework - postCommentInBlog1
+09:21:07.389 [main] INFO  utils.Log - TC2Homework
+09:21:07.389 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:21:07.389 [main] INFO  utils.Log - Start time :2023.04.24.09.21.07
+09:21:07.389 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+09:21:11.402 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++
+09:21:11.402 [main] ERROR utils.Log - Failed test :postCommentInBlog1
+09:21:11.402 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++
+09:21:11.404 [main] ERROR utils.Log - Failed time :2023.04.24.09.21.11
+09:21:11.406 [main] ERROR utils.Log - java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+09:21:11.407 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++

@@ -1,0 +1,67 @@
+12:25:48.194 [main] INFO  utils.Log - Browser parameter is : CHROME
+12:25:49.709 [main] INFO  utils.Log - Chrome =--> Thread.id = 1
+12:25:52.638 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:25:52.638 [main] INFO  utils.Log - Started test :TC2Homework - navigateToBlog
+12:25:52.638 [main] INFO  utils.Log - TC2Homework
+12:25:52.638 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:25:52.639 [main] INFO  utils.Log - Start time :2023.04.24.12.25.52
+12:25:52.639 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:25:53.299 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:25:53.299 [main] INFO  utils.Log - Passed test :navigateToBlog
+12:25:53.299 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:25:53.299 [main] INFO  utils.Log - End time :2023.04.24.12.25.53
+12:25:53.300 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:25:53.305 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:25:53.305 [main] INFO  utils.Log - Started test :TC2Homework - checkBlogs
+12:25:53.305 [main] INFO  utils.Log - TC2Homework
+12:25:53.305 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:25:53.306 [main] INFO  utils.Log - Start time :2023.04.24.12.25.53
+12:25:53.306 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:25:53.398 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:25:53.399 [main] INFO  utils.Log - Passed test :checkBlogs
+12:25:53.399 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:25:53.399 [main] INFO  utils.Log - End time :2023.04.24.12.25.53
+12:25:53.399 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:25:53.400 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:25:53.400 [main] INFO  utils.Log - Started test :TC2Homework - postCommentInBlog1
+12:25:53.400 [main] INFO  utils.Log - TC2Homework
+12:25:53.400 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:25:53.400 [main] INFO  utils.Log - Start time :2023.04.24.12.25.53
+12:25:53.400 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:25:55.231 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:25:55.231 [main] INFO  utils.Log - Passed test :postCommentInBlog1
+12:25:55.231 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:25:55.231 [main] INFO  utils.Log - End time :2023.04.24.12.25.55
+12:25:55.231 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:25:55.232 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:25:55.234 [main] INFO  utils.Log - Started test :TC2Homework - postCommentInBlog2
+12:25:55.234 [main] INFO  utils.Log - TC2Homework
+12:25:55.234 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:25:55.234 [main] INFO  utils.Log - Start time :2023.04.24.12.25.55
+12:25:55.234 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:26:05.293 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++
+12:26:05.293 [main] ERROR utils.Log - Failed test :postCommentInBlog2
+12:26:05.293 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++
+12:26:05.293 [main] ERROR utils.Log - Failed time :2023.04.24.12.26.05
+12:26:05.294 [main] ERROR utils.Log - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//article[@id = 'post-1023']//h2//a[contains(@href, 'typefaces')]"}
+  (Session info: chrome=112.0.5615.121)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b64682e93c1b35076af1048a229a133f, findElement {using=xpath, value=//article[@id = 'post-1023']//h2//a[contains(@href, 'typefaces')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.121, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\ealbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55885}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55885/devtoo..., se:cdpVersion: 112.0.5615.121, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b64682e93c1b35076af1048a229a133f
+12:26:05.295 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++
+12:26:05.393 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:26:05.393 [main] INFO  utils.Log - Started test :TC2Homework - postCommentInBlog3
+12:26:05.393 [main] INFO  utils.Log - TC2Homework
+12:26:05.393 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:26:05.394 [main] INFO  utils.Log - Start time :2023.04.24.12.26.05
+12:26:05.394 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:26:05.397 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:26:05.397 [main] INFO  utils.Log - Started test :TC2Homework - postCommentInBlog4
+12:26:05.397 [main] INFO  utils.Log - TC2Homework
+12:26:05.398 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:26:05.398 [main] INFO  utils.Log - Start time :2023.04.24.12.26.05
+12:26:05.398 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++

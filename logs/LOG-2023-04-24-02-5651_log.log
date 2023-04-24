@@ -1,0 +1,24 @@
+02:56:51.324 [main] INFO  utils.Log - Browser parameter is : EDGE
+02:56:54.467 [main] INFO  utils.Log - Edge =--> Thread.id = 1
+02:56:57.357 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:56:57.357 [main] INFO  utils.Log - Started test :TC2Homework - navigateToBlog
+02:56:57.357 [main] INFO  utils.Log - TC2Homework
+02:56:57.357 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:56:57.357 [main] INFO  utils.Log - Start time :2023.04.24.02.56.57
+02:56:57.357 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:56:57.958 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:56:57.958 [main] INFO  utils.Log - Passed test :navigateToBlog
+02:56:57.958 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:56:57.958 [main] INFO  utils.Log - End time :2023.04.24.02.56.57
+02:56:57.958 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:56:57.961 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:56:57.962 [main] INFO  utils.Log - Started test :TC2Homework - checkBlogs
+02:56:57.962 [main] INFO  utils.Log - TC2Homework
+02:56:57.962 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:56:57.962 [main] INFO  utils.Log - Start time :2023.04.24.02.56.57
+02:56:57.962 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:56:59.858 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:56:59.858 [main] INFO  utils.Log - Passed test :checkBlogs
+02:56:59.858 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:56:59.859 [main] INFO  utils.Log - End time :2023.04.24.02.56.59
+02:56:59.859 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++

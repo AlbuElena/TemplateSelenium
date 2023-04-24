@@ -32,7 +32,12 @@
 	    <version>2.20.0</version>
 	</dependency>
 
-	  
-  </dependencies>
+
+	<dependency>
+		<groupId>MavenProject</groupId>
+		<artifactId>MavenProject</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</dependency>
+   </dependencies>
   
 </project>

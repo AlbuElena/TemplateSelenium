@@ -5,7 +5,7 @@ import pages.MenuPage;
 import pages.MyAccountPage;
 import pages.CartPage;
 import pages.CheckoutPage;
-
+import pages.BlogPage;
 
 public class BasePage extends SeleniumWrappers {
 
@@ -17,5 +17,6 @@ public class BasePage extends SeleniumWrappers {
 	public MyAccountPage account = new MyAccountPage(driver);
 	public CartPage cart = new CartPage(driver);
 	public CheckoutPage order = new CheckoutPage(driver);
+	public BlogPage blog = new BlogPage(driver);
 	
 }

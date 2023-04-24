@@ -1,0 +1,68 @@
+12:27:28.151 [main] INFO  utils.Log - Browser parameter is : CHROME
+12:27:29.726 [main] INFO  utils.Log - Chrome =--> Thread.id = 1
+12:27:32.214 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:27:32.214 [main] INFO  utils.Log - Started test :TC2Homework - navigateToBlog
+12:27:32.214 [main] INFO  utils.Log - TC2Homework
+12:27:32.214 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:27:32.214 [main] INFO  utils.Log - Start time :2023.04.24.12.27.32
+12:27:32.215 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:27:33.053 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:27:33.054 [main] INFO  utils.Log - Passed test :navigateToBlog
+12:27:33.054 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:27:33.054 [main] INFO  utils.Log - End time :2023.04.24.12.27.33
+12:27:33.054 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:27:33.058 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:27:33.058 [main] INFO  utils.Log - Started test :TC2Homework - checkBlogs
+12:27:33.058 [main] INFO  utils.Log - TC2Homework
+12:27:33.058 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:27:33.058 [main] INFO  utils.Log - Start time :2023.04.24.12.27.33
+12:27:33.058 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:27:33.138 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:27:33.138 [main] INFO  utils.Log - Passed test :checkBlogs
+12:27:33.138 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:27:33.138 [main] INFO  utils.Log - End time :2023.04.24.12.27.33
+12:27:33.138 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:27:33.141 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:27:33.141 [main] INFO  utils.Log - Started test :TC2Homework - postCommentInBlog1
+12:27:33.141 [main] INFO  utils.Log - TC2Homework
+12:27:33.141 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:27:33.142 [main] INFO  utils.Log - Start time :2023.04.24.12.27.33
+12:27:33.142 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:27:37.394 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:27:37.394 [main] INFO  utils.Log - Passed test :postCommentInBlog1
+12:27:37.394 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:27:37.395 [main] INFO  utils.Log - End time :2023.04.24.12.27.37
+12:27:37.395 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:27:37.396 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:27:37.396 [main] INFO  utils.Log - Started test :TC2Homework - postCommentInBlog2
+12:27:37.396 [main] INFO  utils.Log - TC2Homework
+12:27:37.396 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:27:37.396 [main] INFO  utils.Log - Start time :2023.04.24.12.27.37
+12:27:37.396 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:27:39.425 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:27:39.425 [main] INFO  utils.Log - Passed test :postCommentInBlog2
+12:27:39.425 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:27:39.425 [main] INFO  utils.Log - End time :2023.04.24.12.27.39
+12:27:39.425 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:27:39.427 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:27:39.427 [main] INFO  utils.Log - Started test :TC2Homework - postCommentInBlog3
+12:27:39.427 [main] INFO  utils.Log - TC2Homework
+12:27:39.427 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:27:39.427 [main] INFO  utils.Log - Start time :2023.04.24.12.27.39
+12:27:39.427 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:27:41.281 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:27:41.282 [main] INFO  utils.Log - Passed test :postCommentInBlog3
+12:27:41.282 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:27:41.283 [main] INFO  utils.Log - End time :2023.04.24.12.27.41
+12:27:41.283 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:27:41.284 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:27:41.284 [main] INFO  utils.Log - Started test :TC2Homework - postCommentInBlog4
+12:27:41.285 [main] INFO  utils.Log - TC2Homework
+12:27:41.285 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:27:41.285 [main] INFO  utils.Log - Start time :2023.04.24.12.27.41
+12:27:41.285 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:27:43.280 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:27:43.280 [main] INFO  utils.Log - Passed test :postCommentInBlog4
+12:27:43.280 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:27:43.280 [main] INFO  utils.Log - End time :2023.04.24.12.27.43
+12:27:43.280 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++

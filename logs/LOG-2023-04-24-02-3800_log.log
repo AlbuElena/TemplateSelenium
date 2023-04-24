@@ -1,0 +1,45 @@
+02:38:00.765 [main] INFO  utils.Log - Browser parameter is : EDGE
+02:38:03.988 [main] INFO  utils.Log - Edge =--> Thread.id = 1
+02:38:07.144 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:38:07.145 [main] INFO  utils.Log - Started test :TC2Homework - navigateToBlog
+02:38:07.145 [main] INFO  utils.Log - TC2Homework
+02:38:07.145 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:38:07.146 [main] INFO  utils.Log - Start time :2023.04.24.02.38.07
+02:38:07.146 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:38:07.724 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:38:07.725 [main] INFO  utils.Log - Passed test :navigateToBlog
+02:38:07.725 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:38:07.725 [main] INFO  utils.Log - End time :2023.04.24.02.38.07
+02:38:07.725 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:38:07.730 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:38:07.730 [main] INFO  utils.Log - Started test :TC2Homework - checkBlogs
+02:38:07.730 [main] INFO  utils.Log - TC2Homework
+02:38:07.730 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:38:07.732 [main] INFO  utils.Log - Start time :2023.04.24.02.38.07
+02:38:07.732 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:38:07.807 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:38:07.807 [main] INFO  utils.Log - Passed test :checkBlogs
+02:38:07.807 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:38:07.808 [main] INFO  utils.Log - End time :2023.04.24.02.38.07
+02:38:07.808 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:38:07.809 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:38:07.809 [main] INFO  utils.Log - Started test :TC2Homework - postCommentInBlog1
+02:38:07.809 [main] INFO  utils.Log - TC2Homework
+02:38:07.809 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:38:07.809 [main] INFO  utils.Log - Start time :2023.04.24.02.38.07
+02:38:07.809 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:38:19.615 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++
+02:38:19.615 [main] ERROR utils.Log - Failed test :postCommentInBlog1
+02:38:19.615 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++
+02:38:19.615 [main] ERROR utils.Log - Failed time :2023.04.24.02.38.19
+02:38:19.617 [main] ERROR utils.Log - org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: MicrosoftEdge=112.0.1722.48)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [4a6ff27063386e225303cd742d7b9eff, clickElement {id=ef54ae6a-e2d9-4f62-b1a0-58bae2dd2e5b}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 112.0.1722.48, ms:edgeOptions: {debuggerAddress: localhost:49385}, msedge: {msedgedriverVersion: 112.0.1722.58 (4dc3f55bfaec..., userDataDir: C:\Users\ealbu\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49385/devtoo..., se:cdpVersion: 112.0.1722.48, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (4a6ff27063386e225303cd742d7b9eff)] -> xpath: //article[@id = 'post-1023']//h2//a[contains(@href, 'typefaces')]]
+Session ID: 4a6ff27063386e225303cd742d7b9eff
+02:38:19.617 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++

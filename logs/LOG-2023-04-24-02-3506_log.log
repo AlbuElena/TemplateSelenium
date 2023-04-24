@@ -1,0 +1,44 @@
+02:35:06.682 [main] INFO  utils.Log - Browser parameter is : EDGE
+02:35:09.922 [main] INFO  utils.Log - Edge =--> Thread.id = 1
+02:35:14.085 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:35:14.085 [main] INFO  utils.Log - Started test :TC2Homework - navigateToBlog
+02:35:14.085 [main] INFO  utils.Log - TC2Homework
+02:35:14.085 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:35:14.086 [main] INFO  utils.Log - Start time :2023.04.24.02.35.14
+02:35:14.086 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:35:14.708 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:35:14.708 [main] INFO  utils.Log - Passed test :navigateToBlog
+02:35:14.708 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:35:14.708 [main] INFO  utils.Log - End time :2023.04.24.02.35.14
+02:35:14.708 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:35:14.713 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:35:14.713 [main] INFO  utils.Log - Started test :TC2Homework - checkBlogs
+02:35:14.713 [main] INFO  utils.Log - TC2Homework
+02:35:14.713 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:35:14.714 [main] INFO  utils.Log - Start time :2023.04.24.02.35.14
+02:35:14.715 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:35:14.806 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:35:14.806 [main] INFO  utils.Log - Passed test :checkBlogs
+02:35:14.806 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:35:14.807 [main] INFO  utils.Log - End time :2023.04.24.02.35.14
+02:35:14.807 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:35:14.808 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:35:14.808 [main] INFO  utils.Log - Started test :TC2Homework - postCommentInBlog1
+02:35:14.808 [main] INFO  utils.Log - TC2Homework
+02:35:14.808 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:35:14.808 [main] INFO  utils.Log - Start time :2023.04.24.02.35.14
+02:35:14.808 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:35:26.018 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++
+02:35:26.019 [main] ERROR utils.Log - Failed test :postCommentInBlog1
+02:35:26.019 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++
+02:35:26.019 [main] ERROR utils.Log - Failed time :2023.04.24.02.35.26
+02:35:26.021 [main] ERROR utils.Log - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class = 'klb-post']//em"}
+  (Session info: MicrosoftEdge=112.0.1722.48)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [533c78fb04deb1e1e7ae0bb201bfc2ad, findElement {using=xpath, value=//div[@class = 'klb-post']//em}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 112.0.1722.48, ms:edgeOptions: {debuggerAddress: localhost:65530}, msedge: {msedgedriverVersion: 112.0.1722.58 (4dc3f55bfaec..., userDataDir: C:\Users\ealbu\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65530/devtoo..., se:cdpVersion: 112.0.1722.48, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 533c78fb04deb1e1e7ae0bb201bfc2ad
+02:35:26.021 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++

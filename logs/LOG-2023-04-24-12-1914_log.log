@@ -1,0 +1,36 @@
+12:19:14.812 [main] INFO  utils.Log - Browser parameter is : CHROME
+12:19:16.303 [main] INFO  utils.Log - Chrome =--> Thread.id = 1
+12:19:18.751 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:19:18.752 [main] INFO  utils.Log - Started test :TC2Homework - navigateToBlog
+12:19:18.752 [main] INFO  utils.Log - TC2Homework
+12:19:18.753 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:19:18.754 [main] INFO  utils.Log - Start time :2023.04.24.12.19.18
+12:19:18.754 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:19:19.457 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:19:19.457 [main] INFO  utils.Log - Passed test :navigateToBlog
+12:19:19.457 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:19:19.458 [main] INFO  utils.Log - End time :2023.04.24.12.19.19
+12:19:19.458 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:19:19.461 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:19:19.461 [main] INFO  utils.Log - Started test :TC2Homework - checkBlogs
+12:19:19.461 [main] INFO  utils.Log - TC2Homework
+12:19:19.461 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:19:19.461 [main] INFO  utils.Log - Start time :2023.04.24.12.19.19
+12:19:19.461 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:19:19.555 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:19:19.555 [main] INFO  utils.Log - Passed test :checkBlogs
+12:19:19.555 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:19:19.556 [main] INFO  utils.Log - End time :2023.04.24.12.19.19
+12:19:19.556 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:19:19.557 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:19:19.557 [main] INFO  utils.Log - Started test :TC2Homework - postCommentInBlog1
+12:19:19.557 [main] INFO  utils.Log - TC2Homework
+12:19:19.557 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:19:19.557 [main] INFO  utils.Log - Start time :2023.04.24.12.19.19
+12:19:19.557 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+12:19:23.586 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++
+12:19:23.586 [main] ERROR utils.Log - Failed test :postCommentInBlog1
+12:19:23.586 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++
+12:19:23.587 [main] ERROR utils.Log - Failed time :2023.04.24.12.19.23
+12:19:23.587 [main] ERROR utils.Log - java.lang.ClassCastException: class org.openqa.selenium.remote.RemoteWebElement cannot be cast to class org.openqa.selenium.By (org.openqa.selenium.remote.RemoteWebElement and org.openqa.selenium.By are in unnamed module of loader 'app')
+12:19:23.587 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++

@@ -25,7 +25,7 @@ public class TC1Homework extends BaseTest {
 		app.sendKeys(app.account.password, password);
 		app.click(app.account.loginBttn);
 		assertTrue(app.account.messageIsDisplayed(app.account.checkLoginText));	
-		//app.sendKeys(app.menu.searchProduct,  "Pretzels");
+		
 	}
 	
 	@Test (priority = 2)

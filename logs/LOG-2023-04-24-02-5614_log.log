@@ -1,0 +1,25 @@
+02:56:14.259 [main] INFO  utils.Log - Browser parameter is : EDGE
+02:56:17.475 [main] INFO  utils.Log - Edge =--> Thread.id = 1
+02:56:20.461 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:56:20.461 [main] INFO  utils.Log - Started test :TC2Homework - navigateToBlog
+02:56:20.461 [main] INFO  utils.Log - TC2Homework
+02:56:20.461 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:56:20.463 [main] INFO  utils.Log - Start time :2023.04.24.02.56.20
+02:56:20.463 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:56:21.075 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:56:21.075 [main] INFO  utils.Log - Passed test :navigateToBlog
+02:56:21.076 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:56:21.076 [main] INFO  utils.Log - End time :2023.04.24.02.56.21
+02:56:21.076 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:56:21.080 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:56:21.080 [main] INFO  utils.Log - Started test :TC2Homework - checkBlogs
+02:56:21.080 [main] INFO  utils.Log - TC2Homework
+02:56:21.080 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:56:21.081 [main] INFO  utils.Log - Start time :2023.04.24.02.56.21
+02:56:21.081 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+02:56:21.165 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++
+02:56:21.165 [main] ERROR utils.Log - Failed test :checkBlogs
+02:56:21.165 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++
+02:56:21.165 [main] ERROR utils.Log - Failed time :2023.04.24.02.56.21
+02:56:21.165 [main] ERROR utils.Log - java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+02:56:21.167 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++
