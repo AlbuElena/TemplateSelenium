@@ -1,0 +1,13 @@
+21:34:31.987 [main] INFO  utils.Log - Browser parameter is : CHROME
+21:34:33.556 [main] INFO  utils.Log - Chrome =--> Thread.id = 1
+21:34:38.483 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+21:34:38.484 [main] INFO  utils.Log - Started test :LoginTest - validloginTest
+21:34:38.484 [main] INFO  utils.Log - LoginTest
+21:34:38.484 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+21:34:38.485 [main] INFO  utils.Log - Start time :2023.04.24.21.34.38
+21:34:38.485 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+21:34:40.428 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+21:34:40.430 [main] INFO  utils.Log - Passed test :validloginTest
+21:34:40.430 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+21:34:40.431 [main] INFO  utils.Log - End time :2023.04.24.21.34.40
+21:34:40.431 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++

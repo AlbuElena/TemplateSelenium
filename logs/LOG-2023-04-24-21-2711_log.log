@@ -1,0 +1,22 @@
+21:27:11.825 [main] INFO  utils.Log - Browser parameter is : EDGE
+21:27:15.020 [main] INFO  utils.Log - Edge =--> Thread.id = 1
+21:27:17.868 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+21:27:17.868 [main] INFO  utils.Log - Started test :LoginTest - validloginTest
+21:27:17.869 [main] INFO  utils.Log - LoginTest
+21:27:17.869 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+21:27:17.871 [main] INFO  utils.Log - Start time :2023.04.24.21.27.17
+21:27:17.871 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+21:27:27.890 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++
+21:27:27.892 [main] ERROR utils.Log - Failed test :validloginTest
+21:27:27.892 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++
+21:27:27.892 [main] ERROR utils.Log - Failed time :2023.04.24.21.27.27
+21:27:27.893 [main] ERROR utils.Log - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"My account"}
+  (Session info: headless MicrosoftEdge=112.0.1722.58)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.2', revision: '826dbfc730'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [4e26863d70b8d5a3de3a2ff7fc24be14, findElement {using=link text, value=My account}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 112.0.1722.58, ms:edgeOptions: {debuggerAddress: localhost:59913}, msedge: {msedgedriverVersion: 112.0.1722.58 (4dc3f55bfaec..., userDataDir: C:\Users\ealbu\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59913/devtoo..., se:cdpVersion: 112.0.1722.58, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4e26863d70b8d5a3de3a2ff7fc24be14
+21:27:27.893 [main] ERROR utils.Log - +++++++++++++++++++++++++++++++++

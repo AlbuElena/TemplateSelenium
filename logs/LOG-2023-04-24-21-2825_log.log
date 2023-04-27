@@ -1,0 +1,13 @@
+21:28:25.906 [main] INFO  utils.Log - Browser parameter is : FIREFOX
+21:28:28.389 [main] INFO  utils.Log - Firefox =--> Thread.id = 1
+21:28:31.434 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+21:28:31.436 [main] INFO  utils.Log - Started test :LoginTest - validloginTest
+21:28:31.436 [main] INFO  utils.Log - LoginTest
+21:28:31.436 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+21:28:31.437 [main] INFO  utils.Log - Start time :2023.04.24.21.28.31
+21:28:31.437 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+21:28:33.190 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+21:28:33.191 [main] INFO  utils.Log - Passed test :validloginTest
+21:28:33.192 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+21:28:33.192 [main] INFO  utils.Log - End time :2023.04.24.21.28.33
+21:28:33.192 [main] INFO  utils.Log - +++++++++++++++++++++++++++++++++

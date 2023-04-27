@@ -6,6 +6,7 @@ import pages.MyAccountPage;
 import pages.CartPage;
 import pages.CheckoutPage;
 import pages.BlogPage;
+import pages.LoginPage;
 
 public class BasePage extends SeleniumWrappers {
 
@@ -18,5 +19,6 @@ public class BasePage extends SeleniumWrappers {
 	public CartPage cart = new CartPage(driver);
 	public CheckoutPage order = new CheckoutPage(driver);
 	public BlogPage blog = new BlogPage(driver);
+	public LoginPage login = new LoginPage(driver);
 	
 }

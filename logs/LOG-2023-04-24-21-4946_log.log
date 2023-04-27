@@ -1,0 +1,39 @@
+21:49:46.271 [TestNG-tests-2] INFO  utils.Log - Browser parameter is : FIREFOX
+21:49:46.271 [TestNG-tests-1] INFO  utils.Log - Browser parameter is : CHROME
+21:49:47.938 [TestNG-tests-1] INFO  utils.Log - Chrome =--> Thread.id = 22
+21:49:49.574 [TestNG-tests-2] INFO  utils.Log - Firefox =--> Thread.id = 23
+21:49:50.872 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+21:49:50.872 [TestNG-tests-1] INFO  utils.Log - Started test :LoginTest - validloginTest
+21:49:50.872 [TestNG-tests-1] INFO  utils.Log - LoginTest
+21:49:50.872 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+21:49:50.873 [TestNG-tests-1] INFO  utils.Log - Start time :2023.04.24.21.49.50
+21:49:50.873 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+21:49:52.531 [TestNG-tests-2] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+21:49:52.532 [TestNG-tests-2] INFO  utils.Log - Started test :LoginTest - validloginTest
+21:49:52.532 [TestNG-tests-2] INFO  utils.Log - LoginTest
+21:49:52.532 [TestNG-tests-2] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+21:49:52.533 [TestNG-tests-2] INFO  utils.Log - Start time :2023.04.24.21.49.52
+21:49:52.533 [TestNG-tests-2] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+21:49:53.005 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+21:49:53.005 [TestNG-tests-1] INFO  utils.Log - Passed test :validloginTest
+21:49:53.005 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+21:49:53.005 [TestNG-tests-1] INFO  utils.Log - End time :2023.04.24.21.49.53
+21:49:53.005 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+21:49:54.231 [TestNG-tests-2] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+21:49:54.231 [TestNG-tests-2] INFO  utils.Log - Passed test :validloginTest
+21:49:54.231 [TestNG-tests-2] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+21:49:54.231 [TestNG-tests-2] INFO  utils.Log - End time :2023.04.24.21.49.54
+21:49:54.232 [TestNG-tests-2] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+21:49:58.230 [TestNG-tests-1] INFO  utils.Log - Browser parameter is : EDGE
+21:50:00.831 [TestNG-tests-1] INFO  utils.Log - Edge =--> Thread.id = 22
+21:50:08.829 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+21:50:08.829 [TestNG-tests-1] INFO  utils.Log - Started test :LoginTest - validloginTest
+21:50:08.829 [TestNG-tests-1] INFO  utils.Log - LoginTest
+21:50:08.829 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+21:50:08.830 [TestNG-tests-1] INFO  utils.Log - Start time :2023.04.24.21.50.08
+21:50:08.830 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+21:50:10.479 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+21:50:10.479 [TestNG-tests-1] INFO  utils.Log - Passed test :validloginTest
+21:50:10.479 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++++++++++++++++
+21:50:10.479 [TestNG-tests-1] INFO  utils.Log - End time :2023.04.24.21.50.10
+21:50:10.480 [TestNG-tests-1] INFO  utils.Log - +++++++++++++++++++++++++++++++++
