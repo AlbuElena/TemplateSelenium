@@ -47,14 +47,14 @@ public class Driver {
 		//firefoxBinary.addCommandLineOptions("--headless");
 		FirefoxOptions firefoxOptions = new FirefoxOptions();
 		firefoxOptions.setBinary(firefoxBinary);
-		//firefoxOptions.addArguments("--headless"); //asa era inainte
+		firefoxOptions.addArguments("--headless"); //asa era inainte
 		
 		return firefoxOptions;
 	}
 	
 	public static ChromeOptions getChromeoptions() {
 		ChromeOptions chromeOptions = new ChromeOptions();
-		//chromeOptions.addArguments("--headless");
+		chromeOptions.addArguments("--headless");
 		chromeOptions.addArguments("--window-size=1580, 1280");
 		
 		return chromeOptions;

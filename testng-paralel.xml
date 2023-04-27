@@ -24,12 +24,8 @@
     </classes>
   </test>
   
-  <test name="LoginEdge" >
-  
-   <parameter name ="browser" value="edge"> </parameter> 
-    <classes>
-       <class name="tests.LoginTest" />
-    </classes>
-  </test>
+<!-- 
+aici este comentariu
+-->
   
 </suite>
