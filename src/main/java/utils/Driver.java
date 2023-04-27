@@ -34,8 +34,8 @@ public class Driver {
 		}else if(browser.equalsIgnoreCase("edge")) {
 			Log.info("Browser parameter is : EDGE");
 			driver.set(new EdgeDriver(getEdgeOptions()));
-			long edgeId = Thread.currentThread().threadId();
-			Log.info("Edge =--> Thread.id = " + edgeId);
+			//long edgeId = Thread.currentThread().threadId();
+			//Log.info("Edge =--> Thread.id = " + edgeId);
 			return driver.get();			
 			
 		}
