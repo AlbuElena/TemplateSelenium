@@ -19,4 +19,7 @@ public class CartPage extends SeleniumWrappers {
 	public By totalPrice = By.xpath("//span[@class = 'woocommerce-Price-amount amount']");
 	public By updateCartButton = By.xpath("//button[@name = 'update_cart']");
 	public By checkOutButton = By.xpath("//a[contains(@class,  'checkout-button')]");
+	public By removeProduct = By.xpath("//td[@class = 'product-remove']//i[@class = 'klbth-icon-cancel']");
+	public By element = By.xpath("//div[@class = 'blockUI blockOverlay']");
+	
 }

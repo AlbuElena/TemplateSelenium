@@ -19,23 +19,23 @@ public class Driver {
 		if(browser.equalsIgnoreCase("chrome")) {
 			Log.info("Browser parameter is : CHROME");
 			driver.set(new ChromeDriver(getChromeoptions()));
-			//long chromeId = Thread.currentThread().threadId();
-			//Log.info("Chrome =--> Thread.id = " + chromeId);
+			long chromeId = Thread.currentThread().getId(); //comentez pt jenkins
+			Log.info("Chrome =--> Thread.id = " + chromeId); //comentez pt jenkins
 			return driver.get();
 		
 		}else if(browser.equalsIgnoreCase("firefox")) {
 			
 			Log.info("Browser parameter is : FIREFOX");
 			driver.set(new FirefoxDriver(getFirefoxOptions()));
-			//long firefoxId = Thread.currentThread().threadId();
-			//Log.info("Firefox =--> Thread.id = " + firefoxId);
+			long firefoxId = Thread.currentThread().getId();  //comentez pt jenkins
+			Log.info("Firefox =--> Thread.id = " + firefoxId); //comentez pt jenkins
 			return driver.get();			
 			
 		}else if(browser.equalsIgnoreCase("edge")) {
 			Log.info("Browser parameter is : EDGE");
 			driver.set(new EdgeDriver(getEdgeOptions()));
-			//long edgeId = Thread.currentThread().threadId();
-			//Log.info("Edge =--> Thread.id = " + edgeId);
+			long edgeId = Thread.currentThread().getId(); //comentez pt jenkins
+			Log.info("Edge =--> Thread.id = " + edgeId); //comentez pt jenkins
 			return driver.get();			
 			
 		}
@@ -47,14 +47,14 @@ public class Driver {
 		//firefoxBinary.addCommandLineOptions("--headless");
 		FirefoxOptions firefoxOptions = new FirefoxOptions();
 		firefoxOptions.setBinary(firefoxBinary);
-		firefoxOptions.addArguments("--headless"); //asa era inainte
+		//firefoxOptions.addArguments("--headless"); //asa era inainte
 		
 		return firefoxOptions;
 	}
 	
 	public static ChromeOptions getChromeoptions() {
 		ChromeOptions chromeOptions = new ChromeOptions();
-		chromeOptions.addArguments("--headless");
+		//chromeOptions.addArguments("--headless"); // decomentez pt jenkins
 		chromeOptions.addArguments("--window-size=1580, 1280");
 		
 		return chromeOptions;

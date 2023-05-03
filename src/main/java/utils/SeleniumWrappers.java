@@ -8,6 +8,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+
+
 public class SeleniumWrappers  {
 	
 	public WebDriver driver;
@@ -39,11 +41,7 @@ public class SeleniumWrappers  {
 	public boolean elementIsDisplayed(By locator) {
 		return driver.findElement(locator).isDisplayed();
 	}
-	
-	public boolean messageIsDisplayed(By locator) {
-		return driver.findElement(locator).isDisplayed();
-	}
-	
+
 	public String productPrice (By locator) {
 		return driver.findElement(locator).getText().replace("$", "") ; 
 	}
@@ -51,6 +49,9 @@ public class SeleniumWrappers  {
 	public static double round(double value, int scale) {
 	    return Math.round(value * Math.pow(10, scale)) / Math.pow(10, scale);
 	}
+	
+
+
     
 
 }

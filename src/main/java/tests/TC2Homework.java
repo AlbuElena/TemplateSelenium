@@ -15,13 +15,13 @@ public class TC2Homework extends BaseTest{
 	
 	@Test (priority =2)
 	public void checkBlogs() {
-		assertTrue(app.messageIsDisplayed(app.blog.blog1));
+		assertTrue(app.elementIsDisplayed(app.blog.blog1));
 			//if(app.messageIsDisplayed(app.blog.blog4)) {System.out.println("1");}; // verificari pt mine
-		assertTrue(app.messageIsDisplayed(app.blog.blog2));
+		assertTrue(app.elementIsDisplayed(app.blog.blog2));
 			//if(app.messageIsDisplayed(app.blog.blog4)) {System.out.println("2");};
-		assertTrue(app.messageIsDisplayed(app.blog.blog3));
+		assertTrue(app.elementIsDisplayed(app.blog.blog3));
 			//if(app.messageIsDisplayed(app.blog.blog4)) {System.out.println("3");};
-		assertTrue(app.messageIsDisplayed(app.blog.blog4));
+		assertTrue(app.elementIsDisplayed(app.blog.blog4));
 			//if(app.messageIsDisplayed(app.blog.blog4)) {System.out.println("4");};			
 	}
 	
@@ -59,7 +59,7 @@ public class TC2Homework extends BaseTest{
 		app.sendKeys(app.blog.name, "Acesta este numele meu");
 		app.sendKeys(app.blog.email, "myEmail@abc.com");
 		app.click(app.blog.postCommentButton);
-		assertTrue(app.messageIsDisplayed(app.blog.confirmComment));
+		assertTrue(app.elementIsDisplayed(app.blog.confirmComment));
 	}
 	
 	@Test (priority =5)
@@ -70,7 +70,7 @@ public class TC2Homework extends BaseTest{
 		app.sendKeys(app.blog.name, "Acesta este numele meu");
 		app.sendKeys(app.blog.email, "myEmail@abc.com");
 		app.click(app.blog.postCommentButton);
-		assertTrue(app.messageIsDisplayed(app.blog.confirmComment));
+		assertTrue(app.elementIsDisplayed(app.blog.confirmComment));
 	}
 	
 	@Test (priority =6)
@@ -81,7 +81,7 @@ public class TC2Homework extends BaseTest{
 		app.sendKeys(app.blog.name, "Acesta este numele meu");
 		app.sendKeys(app.blog.email, "myEmail@abc.com");
 		app.click(app.blog.postCommentButton);
-		assertTrue(app.messageIsDisplayed(app.blog.confirmComment));
+		assertTrue(app.elementIsDisplayed(app.blog.confirmComment));
 	}
 	
 	@Test (priority =7)
@@ -92,7 +92,7 @@ public class TC2Homework extends BaseTest{
 		app.sendKeys(app.blog.name, "Acesta este numele meu");
 		app.sendKeys(app.blog.email, "myEmail@abc.com");
 		app.click(app.blog.postCommentButton);
-		assertTrue(app.messageIsDisplayed(app.blog.confirmComment));
+		assertTrue(app.elementIsDisplayed(app.blog.confirmComment));
 	}
 
 }

@@ -24,7 +24,7 @@ public class TC1Homework extends BaseTest {
 		app.sendKeys(app.account.username, username);
 		app.sendKeys(app.account.password, password);
 		app.click(app.account.loginBttn);
-		assertTrue(app.account.messageIsDisplayed(app.account.checkLoginText));	
+		assertTrue(app.account.elementIsDisplayed(app.account.checkLoginText));	
 		
 	}
 	
@@ -37,7 +37,7 @@ public class TC1Homework extends BaseTest {
 	@Test (priority = 3)
 	public void placeAndUpdateOrder() throws InterruptedException{	
 		app.click(app.cart.addToCart);
-		assertTrue(app.cart.messageIsDisplayed(app.cart.checkAlertAddedToCart));
+		assertTrue(app.cart.elementIsDisplayed(app.cart.checkAlertAddedToCart));
 		app.click(app.cart.viewCart);
 		app.click(app.cart.plusButton);
 		
